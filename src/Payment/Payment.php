@@ -205,8 +205,8 @@ class Payment
     {
         $config = $this->configForPayment($prepayId, false);
 
-        $config['timestamp'] = $config['timeStamp'];
-        unset($config['timeStamp']);
+//         $config['timestamp'] = $config['timeStamp'];
+//         unset($config['timeStamp']);
 
         return $config;
     }
